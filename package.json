@@ -1,0 +1,19 @@
+{
+  "name": "learning-webpack",
+  "version": "1.0.0",
+  "description": "Learning how to setup webpack.",
+  "private": "true",
+  "author": "Marcos Fellipe Déda de Oliveira",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
