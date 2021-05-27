@@ -1,8 +1,5 @@
 import _ from "lodash";
 import printMe from "./print";
-
-const root = document.getElementById("root");
-
 function component() {
   const element = document.createElement("div");
   const button = document.createElement("button");
@@ -17,4 +14,4 @@ function component() {
   return element;
 }
 
-root.appendChild(component());
+document.body.appendChild(component());
